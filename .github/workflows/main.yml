@@ -35,6 +35,7 @@ jobs:
     needs: [build]
 
     # Deploy to Netlify using our dev secrets
+    steps:
       - name: Deploy to netlify
         uses: netlify/actions/cli@master
         env:
