@@ -12,10 +12,10 @@ export default function Home() {
 
 
       <main className={styles.main}>
-        <h3 className={styles.title}>
+        <h3>
           Guess what topsy?
         </h3>
-        <h1>
+        <h1 className={styles.title}>
             We did it!!!😁😊
         </h1>
       </main>
