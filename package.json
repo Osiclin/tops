@@ -2,10 +2,10 @@
   "name": "tops",
   "version": "0.1.0",
   "private": true,
-  "main": "index.html",
+  "main": "index.js",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "test": "jest",
     "start": "next start",
     "lint": "next lint"
