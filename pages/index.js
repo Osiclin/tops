@@ -16,7 +16,7 @@ export default function Home() {
           Guess what topsy?
         </h3>
         <h1 className={styles.title}>
-            We did it!!!😁😊
+            We did it!!!
         </h1>
       </main>
     </div>
